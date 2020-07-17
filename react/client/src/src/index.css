@@ -1,0 +1,96 @@
+html, body, #root {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.loginBg {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: url(./assets/bg.jpg) no-repeat center center;
+}
+
+.loginBox {
+    width: 385px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #1f1f1f;
+}
+
+.loginBox h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+.loginBg .listBox {
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.loginBg .listBox .unit {
+    width: 145px;
+    background: #fff;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #1f1f1f;
+}
+
+.loginBg .listBox .unit .ant-row {
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.loginBg .listBox .unit img {
+    width: 53px;
+    height: 47px;
+}
+
+.loginBg .listBox .unit h6 {
+    font-size: 14px;
+}
+
+.searchBox {
+    display: flex;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.searchBox .searchInput {
+    width: 200px;
+    margin-right: 15px;
+}
+
+.searchBox .searchButton {
+    margin-right: 15px;
+}
+
+.green-5 {
+    background-color: #73d13d;
+    border-color: #73d13d;
+}
+
+.green-5:hover, .green-5:active, .green-5:focus {
+    background-color: #95de64;
+    border-color: #95de64;
+}
+
+.overText {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
